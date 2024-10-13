@@ -43,5 +43,22 @@ printNodes(): Imprime los nodos en un formato específico que muestra la relaci�
 Conclusión
 Este proyecto combina el uso de multithreading para generar resultados, almacenamiento en una base de datos SQLite para persistencia, y visualización gráfica para presentar los resultados de manera efectiva. El diseño modular del código permite una fácil ampliación y mantenimiento.
 
+6. Clase GraphDisplay
+La clase GraphDisplay se encarga de crear y mostrar un gráfico basado en los resultados almacenados en la base de datos, que provienen de la simulación del árbol de Galton. Utiliza bibliotecas de gráficos en Java, como JFreeChart.
+
+Atributos
+results: Lista de enteros que contiene los resultados recuperados de la base de datos.
+Métodos Principales
+createDataset():
+
+Crea un conjunto de datos que cuenta las ocurrencias de cada resultado (de 1 a 11) y lo convierte en un CategoryDataset para el gráfico.
+createChart():
+
+Genera un gráfico de barras a partir del conjunto de datos, estableciendo títulos para los ejes y personalizando la apariencia.
+createAndShowChartPanel():
+Crea un ChartPanel y lo muestra en una ventana, haciendo que el gráfico sea visible para el usuario.
+
+Conclusión
+Este proyecto combina el uso de multithreading para generar resultados, almacenamiento en una base de datos SQLite para persistencia, y visualización gráfica para presentar los resultados de manera efectiva. El diseño modular del código permite una fácil ampliación y mantenimiento.
 
 https://github.com/GwendalSaget/GaltonParcial1GwendalSaget
