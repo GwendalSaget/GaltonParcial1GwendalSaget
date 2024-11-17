@@ -1,5 +1,6 @@
 package Galton;
 
+
 public class GaltonNode {
     int id;
     int rang;

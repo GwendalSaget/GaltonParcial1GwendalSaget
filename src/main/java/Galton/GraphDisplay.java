@@ -16,7 +16,7 @@ public class GraphDisplay extends JFrame {
 
     public GraphDisplay() {
 
-        setTitle("Fréquence des résultats");
+        setTitle("Frecuencia de resultados");
         setSize(800, 600);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
